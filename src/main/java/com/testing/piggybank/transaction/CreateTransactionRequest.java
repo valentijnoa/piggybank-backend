@@ -11,6 +11,7 @@ public class CreateTransactionRequest {
     private BigDecimal amount;
     private Currency currency;
 
+
     public long getSenderAccountId() {
         return senderAccountId;
     }

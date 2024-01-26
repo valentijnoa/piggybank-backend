@@ -45,7 +45,7 @@ class AccountServiceTest {
     @Test
     void testGetAccountsByUserId() {
 
-        long userId = 123L;
+        long userId = 1L;
         when(accountRepository.findAllByUserId(userId)).thenReturn(List.of(new Account(), new Account()));
 
 
