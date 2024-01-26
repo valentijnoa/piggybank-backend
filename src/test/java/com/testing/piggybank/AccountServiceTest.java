@@ -1,3 +1,5 @@
+package com.testing.piggybank;
+
 import com.testing.piggybank.account.AccountRepository;
 import com.testing.piggybank.account.AccountService;
 import com.testing.piggybank.model.Account;
